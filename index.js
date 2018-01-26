@@ -4,4 +4,5 @@ function theBeatlesPlay(musicians, instruments) {
   for (let i=0; i<musicians.length; i++) {
     introArray.push(`${musicians[i]} plays ${instruments[i]}`)
   }
+  return introArray;
 }
